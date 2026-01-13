@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="suite">
+<test name="test">
+
+
+<groups>
+<run>
+
+<include name="sanity"/>
+<exclude name="regression"/>
+
+</run>
+</groups>
+
+
+ <classes>
+ 
+ <class name="TestNGdep.class1"/>
+ <class name="TestNGdep.class2"/>
+ <class name="TestNGdep.class3"/>
+ 
+  </classes>
+
+</test>
+
+
+</suite>
